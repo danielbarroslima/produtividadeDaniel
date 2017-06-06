@@ -16,5 +16,28 @@ namespace Produtividade.cSharp
         {
             InitializeComponent();
         }
+
+        private void casaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var cs = new Casa();
+            cs.ShowDialog();
+        }
+
+        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var src = new Emprego();
+            src.ShowDialog();
+        }
+
+        private void estudosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var es = new Estudos();
+            es.ShowDialog();
+        }
+
+        private void lazerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var lz = new Lazer();
+        }
     }
 }
