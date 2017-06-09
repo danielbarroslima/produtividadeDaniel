@@ -41,7 +41,6 @@
             this.cmbprio4 = new System.Windows.Forms.ComboBox();
             this.cmbprio3 = new System.Windows.Forms.ComboBox();
             this.btnGerar = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.cmbprio2 = new System.Windows.Forms.ComboBox();
             this.cmbQntPrio1 = new System.Windows.Forms.ComboBox();
             this.ckbcs7 = new System.Windows.Forms.CheckBox();
@@ -226,21 +225,13 @@
             // 
             // btnGerar
             // 
-            this.btnGerar.Location = new System.Drawing.Point(45, 373);
+            this.btnGerar.Location = new System.Drawing.Point(203, 364);
             this.btnGerar.Name = "btnGerar";
             this.btnGerar.Size = new System.Drawing.Size(114, 23);
             this.btnGerar.TabIndex = 99;
             this.btnGerar.Text = "Gerar horários";
             this.btnGerar.UseVisualStyleBackColor = true;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(300, 373);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 98;
-            this.btnCancel.Text = "Voltar";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnGerar.Click += new System.EventHandler(this.btnGerar_Click);
             // 
             // cmbprio2
             // 
@@ -301,7 +292,7 @@
             this.ckbcs9.TabIndex = 93;
             this.ckbcs9.Text = "Namorar";
             this.ckbcs9.UseVisualStyleBackColor = true;
-            this.ckbcs9.CheckedChanged += new System.EventHandler(this.ckbcs9_CheckedChanged_1);
+
             // 
             // ckbcs10
             // 
@@ -322,7 +313,7 @@
             this.ckbcs11.TabIndex = 91;
             this.ckbcs11.Text = "Visitar amigos";
             this.ckbcs11.UseVisualStyleBackColor = true;
-            this.ckbcs11.CheckedChanged += new System.EventHandler(this.ckbcs11_CheckedChanged_1);
+
             // 
             // ckbcs12
             // 
@@ -412,7 +403,6 @@
             this.Controls.Add(this.cmbprio4);
             this.Controls.Add(this.cmbprio3);
             this.Controls.Add(this.btnGerar);
-            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.cmbprio2);
             this.Controls.Add(this.cmbQntPrio1);
             this.Controls.Add(this.ckbcs7);
@@ -450,7 +440,6 @@
         private System.Windows.Forms.ComboBox cmbprio4;
         private System.Windows.Forms.ComboBox cmbprio3;
         private System.Windows.Forms.Button btnGerar;
-        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.ComboBox cmbprio2;
         private System.Windows.Forms.ComboBox cmbQntPrio1;
         private System.Windows.Forms.CheckBox ckbcs7;

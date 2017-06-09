@@ -12,3 +12,9 @@ C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produt
 C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.csproj.GenerateResource.Cache
 C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.exe
 C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.pdb
+C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Prio_casa.resources
+C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Conexao.mdf
+C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\bin\Debug\Conexao_log.ldf
+C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Prio_emprego.resources
+C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Prio_estudo.resources
+C:\Users\DAni3L\Documents\Github\produtividadeDaniel\Produtividade.cSharp\Produtividade.cSharp\obj\Debug\Produtividade.cSharp.Prio_lazer.resources

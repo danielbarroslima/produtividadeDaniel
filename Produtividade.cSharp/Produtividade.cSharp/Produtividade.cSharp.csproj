@@ -98,6 +98,24 @@
     <Compile Include="Prio_casa.Designer.cs">
       <DependentUpon>Prio_casa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Prio_emprego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prio_emprego.Designer.cs">
+      <DependentUpon>Prio_emprego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prio_estudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prio_estudo.Designer.cs">
+      <DependentUpon>Prio_estudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prio_lazer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prio_lazer.Designer.cs">
+      <DependentUpon>Prio_lazer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Casa.resx">
@@ -117,6 +135,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Prio_casa.resx">
       <DependentUpon>Prio_casa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prio_emprego.resx">
+      <DependentUpon>Prio_emprego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prio_estudo.resx">
+      <DependentUpon>Prio_estudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prio_lazer.resx">
+      <DependentUpon>Prio_lazer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

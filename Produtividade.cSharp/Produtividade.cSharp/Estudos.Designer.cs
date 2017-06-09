@@ -39,7 +39,6 @@
             this.cmbprio4 = new System.Windows.Forms.ComboBox();
             this.cmbprio3 = new System.Windows.Forms.ComboBox();
             this.btnGerar = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.cmbprio2 = new System.Windows.Forms.ComboBox();
             this.cmbQntPrio1 = new System.Windows.Forms.ComboBox();
             this.ckbcs7 = new System.Windows.Forms.CheckBox();
@@ -210,21 +209,13 @@
             // 
             // btnGerar
             // 
-            this.btnGerar.Location = new System.Drawing.Point(48, 382);
+            this.btnGerar.Location = new System.Drawing.Point(203, 383);
             this.btnGerar.Name = "btnGerar";
             this.btnGerar.Size = new System.Drawing.Size(114, 23);
             this.btnGerar.TabIndex = 71;
             this.btnGerar.Text = "Gerar horários";
             this.btnGerar.UseVisualStyleBackColor = true;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(303, 382);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 70;
-            this.btnCancel.Text = "Voltar";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnGerar.Click += new System.EventHandler(this.btnGerar_Click);
             // 
             // cmbprio2
             // 
@@ -410,7 +401,6 @@
             this.Controls.Add(this.cmbprio4);
             this.Controls.Add(this.cmbprio3);
             this.Controls.Add(this.btnGerar);
-            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.cmbprio2);
             this.Controls.Add(this.cmbQntPrio1);
             this.Controls.Add(this.ckbcs7);
@@ -446,7 +436,6 @@
         private System.Windows.Forms.ComboBox cmbprio4;
         private System.Windows.Forms.ComboBox cmbprio3;
         private System.Windows.Forms.Button btnGerar;
-        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.ComboBox cmbprio2;
         private System.Windows.Forms.ComboBox cmbQntPrio1;
         private System.Windows.Forms.CheckBox ckbcs7;

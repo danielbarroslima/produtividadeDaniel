@@ -17,34 +17,56 @@ namespace Produtividade.cSharp
             InitializeComponent();
         }
 
-        private void casaToolStripMenuItem_Click(object sender, EventArgs e)
+
+
+        private void semPrioridadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+  
             var cs = new Casa();
             cs.ShowDialog();
+
         }
 
-        private void serviçoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void prioridadesCriadas9ToolStripMenuItem6_Click(object sender, EventArgs e)
         {
             var src = new Emprego();
             src.ShowDialog();
         }
 
-        private void estudosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void prioridadesCriadas9ToolStripMenuItem12_Click(object sender, EventArgs e)
         {
             var es = new Estudos();
             es.ShowDialog();
         }
 
-        private void lazerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void prioridadesCriadas9ToolStripMenuItem18_Click(object sender, EventArgs e)
         {
             var lz = new Lazer();
+            lz.ShowDialog();
         }
 
-        private void prioridadesCriadasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void prioridadesCriadas3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var pr_cs = new Prio_casa();
-            pr_cs.ShowDialog();
+            var prio = new Prio_casa();
+            prio.ShowDialog();
+        }
 
+        private void prioridadesCriadas9ToolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            var prio = new Prio_emprego();
+            prio.ShowDialog();
+        }
+
+        private void prioridadesCriadas9ToolStripMenuItem11_Click(object sender, EventArgs e)
+        {
+            var prio = new Prio_estudo();
+            prio.ShowDialog();
+        }
+
+        private void prioridadesCriadas9ToolStripMenuItem17_Click(object sender, EventArgs e)
+        {
+            var prio = new Prio_lazer();
+            prio.ShowDialog();
         }
     }
 }
